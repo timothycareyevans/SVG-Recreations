@@ -16,7 +16,6 @@ Files:
 - `svgs/void_property_pass.svg`
 - `svgs/cause_condition_result.svg`
 - `svgs/enlightenment_seal.svg`
-- `svgs/reincarnation_loop.svg`
 - `svgs/karma_stack_panel.svg`
 - `preview.html`
 
