@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG Recreation Preview</title>
+  <style>
+    :root {
+      --bg: #f5f5f2;
+      --panel: #ffffff;
+      --ink: #111111;
+      --grid: #d9d9d3;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background:
+        linear-gradient(0deg, rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+        var(--bg);
+      background-size: 24px 24px, 24px 24px, auto;
+      color: var(--ink);
+      padding: 32px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin: 0 0 24px;
+      max-width: 720px;
+      line-height: 1.5;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--grid);
+      padding: 14px;
+    }
+
+    .card img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      display: block;
+      background: #fafaf8;
+    }
+
+    .label {
+      margin-top: 10px;
+      font-size: 12px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <h1>SVG Recreation Preview</h1>
+  <p>Standalone vector recreations inspired by the technical iconography, orbital layouts, pill indicators, and radial system diagrams in the supplied image.</p>
+  <div class="grid">
+    <div class="card"><img src="svgs/archive_orbital.svg" alt="Archive Orbital"><div class="label">Archive Orbital</div></div>
+    <div class="card"><img src="svgs/signal_node.svg" alt="Signal Node"><div class="label">Signal Node</div></div>
+    <div class="card"><img src="svgs/online_panel.svg" alt="Online Panel"><div class="label">Online Panel</div></div>
+    <div class="card"><img src="svgs/analog_disc.svg" alt="Analog Disc"><div class="label">Analog Disc</div></div>
+    <div class="card"><img src="svgs/epoch_star.svg" alt="Epoch Star"><div class="label">Epoch Star</div></div>
+    <div class="card"><img src="svgs/alerting_branch.svg" alt="Alerting Branch"><div class="label">Alerting Branch</div></div>
+    <div class="card"><img src="svgs/config_burst.svg" alt="Config Burst"><div class="label">Config Burst</div></div>
+    <div class="card"><img src="svgs/system_pill.svg" alt="System Pill"><div class="label">System Pill</div></div>
+  </div>
+</body>
+</html>
