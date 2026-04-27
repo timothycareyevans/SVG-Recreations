@@ -12,6 +12,12 @@ Files:
 - `svgs/alerting_branch.svg`
 - `svgs/config_burst.svg`
 - `svgs/system_pill.svg`
+- `svgs/system_released_card.svg`
+- `svgs/void_property_pass.svg`
+- `svgs/cause_condition_result.svg`
+- `svgs/enlightenment_seal.svg`
+- `svgs/reincarnation_loop.svg`
+- `svgs/karma_stack_panel.svg`
 - `preview.html`
 
 Open `preview.html` in a browser to review the full set together.
